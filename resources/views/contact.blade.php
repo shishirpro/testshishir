@@ -1,20 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-<body>
-    <h1 class="text-center text-2xl py-3 font-semibold text-gray-950 bg-green-400">This is contact</h1>
-    <div class="max-w-6xl mx-auto py-5 bg-green-200">
-        <div class="grid grid-cols-2">
-            <a class="text-center bg-gray-300 text-red-50 text-4xl font-bold" href="/">home</a>
-            <a class="text-center bg-gray-600 text-red-50 text-4xl font-bold" href="/about">About</a>
-        </div>
-    </div>
+@extends('layout')
 
-</body>
-</html>
+@section('title', 'Contact')
+@section('header-title', 'This is contact my name uisb wefgr')
+@section('header-bg', 'bg-green-400')
+
+@section('navigation')
+    <a class="text-center bg-gray-300 text-red-50 text-4xl font-bold" href="/">home</a>
+    <a class="text-center bg-gray-600 text-red-50 text-4xl font-bold" href="/about">About</a>
+@endsection

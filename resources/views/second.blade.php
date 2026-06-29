@@ -1,7 +1,7 @@
 @extends('layout')
 
-@section('title', 'About')
-@section('header-title', 'Its all about my love')
+@section('title', 'Second Page')
+@section('header-title', 'its second page')
 @section('header-bg', 'bg-green-400')
 
 @section('navigation')
